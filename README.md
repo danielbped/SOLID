@@ -19,7 +19,7 @@ SOLID é um acrônimo para cinco princípios de design de software que ajudam a 
 ### L - Liskov Substitution Principle (Princípio da Substituição de Liskov)
 - Subtipos devem ser substituíveis por seus tipos base
 - Classes derivadas devem poder substituir suas classes base sem quebrar o comportamento do programa
-- Exemplo a ser adicionado
+- Exemplo em `/LSP`: Demonstra o princípio através de um sistema de cartões de pagamento, onde diferentes tipos de cartões (crédito, débito, recompensas) podem ser usados de forma intercambiável através de uma interface comum `IPaymentInstrument`
 
 ### I - Interface Segregation Principle (Princípio da Segregação de Interface)
 - Muitas interfaces específicas são melhores que uma interface geral
@@ -36,7 +36,7 @@ SOLID é um acrônimo para cinco princípios de design de software que ajudam a 
 ```
 ├── SRP/           # Exemplo do Princípio da Responsabilidade Única
 ├── OCP/           # Exemplo do Princípio Aberto/Fechado
-├── LSP/           # Exemplo do Princípio da Substituição de Liskov (a ser adicionado)
+├── LSP/           # Exemplo do Princípio da Substituição de Liskov
 ├── ISP/           # Exemplo do Princípio da Segregação de Interface (a ser adicionado)
 └── DIP/           # Exemplo do Princípio da Inversão de Dependência (a ser adicionado)
 ```
