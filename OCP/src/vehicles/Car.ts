@@ -1,4 +1,4 @@
-import IVechicleCar from "./IVechicleCar";
+import IVechicleCar from "../Interfaces/IVechicleCar";
 
 export default class Car implements IVechicleCar {
   constructor(

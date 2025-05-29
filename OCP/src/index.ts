@@ -1,4 +1,4 @@
-import { TypeVehicle } from "./TypeVehicle";
+import { TypeVehicle } from "./Types/TypeVehicle";
 import Car from "./vehicles/Car";
 import Motorcycle from "./vehicles/Motorcycle";
 // import Vehicle from "./vehicles/Vehicle";
