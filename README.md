@@ -1,5 +1,7 @@
 # SOLID Principles Examples
 
+Uma coleção de exemplos práticos dos princípios SOLID em TypeScript, demonstrando como aplicar cada princípio em situações reais de desenvolvimento.
+
 Este repositório contém exemplos práticos dos princípios SOLID em TypeScript. Cada princípio está demonstrado em sua própria pasta com exemplos concretos.
 
 ## O que é SOLID?
@@ -24,7 +26,7 @@ SOLID é um acrônimo para cinco princípios de design de software que ajudam a 
 ### I - Interface Segregation Principle (Princípio da Segregação de Interface)
 - Muitas interfaces específicas são melhores que uma interface geral
 - Clientes não devem ser forçados a depender de interfaces que não utilizam
-- Exemplo a ser adicionado
+- Exemplo em `/ISP`: Ilustra o princípio através de um sistema de veículos, onde interfaces específicas (`IVehicleCar` e `IVehicleMotorcycle`) são usadas ao invés de uma interface genérica, permitindo que cada tipo de veículo implemente apenas os métodos que realmente necessita
 
 ### D - Dependency Inversion Principle (Princípio da Inversão de Dependência)
 - Módulos de alto nível não devem depender de módulos de baixo nível
@@ -37,7 +39,7 @@ SOLID é um acrônimo para cinco princípios de design de software que ajudam a 
 ├── SRP/           # Exemplo do Princípio da Responsabilidade Única
 ├── OCP/           # Exemplo do Princípio Aberto/Fechado
 ├── LSP/           # Exemplo do Princípio da Substituição de Liskov
-├── ISP/           # Exemplo do Princípio da Segregação de Interface (a ser adicionado)
+├── ISP/           # Exemplo do Princípio da Segregação de Interface
 └── DIP/           # Exemplo do Princípio da Inversão de Dependência (a ser adicionado)
 ```
 
