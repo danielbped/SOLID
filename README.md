@@ -113,14 +113,6 @@ O Princípio da Inversão de Dependência estabelece que módulos de alto nível
 └── DIP/           # Exemplo do Princípio da Inversão de Dependência
 ```
 
-## Design Patterns
-
-Após a conclusão dos exemplos SOLID, este repositório será expandido para incluir exemplos de Design Patterns, organizados em categorias:
-
-- Padrões Criacionais
-- Padrões Estruturais
-- Padrões Comportamentais
-
 ## Como Executar os Exemplos
 
 Cada pasta contém seu próprio projeto TypeScript. Para executar um exemplo:
