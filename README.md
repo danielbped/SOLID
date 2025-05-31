@@ -31,7 +31,7 @@ SOLID é um acrônimo para cinco princípios de design de software que ajudam a 
 ### D - Dependency Inversion Principle (Princípio da Inversão de Dependência)
 - Módulos de alto nível não devem depender de módulos de baixo nível
 - Ambos devem depender de abstrações
-- Exemplo a ser adicionado
+- Exemplo em `/DIP`: Demonstra o princípio através de um sistema de pagamento que utiliza uma factory para criar diferentes tipos de produtos de banco de dados (MySQL e MongoDB), onde as dependências são injetadas através de interfaces, permitindo a troca fácil de implementações
 
 ## Estrutura do Projeto
 
@@ -40,7 +40,7 @@ SOLID é um acrônimo para cinco princípios de design de software que ajudam a 
 ├── OCP/           # Exemplo do Princípio Aberto/Fechado
 ├── LSP/           # Exemplo do Princípio da Substituição de Liskov
 ├── ISP/           # Exemplo do Princípio da Segregação de Interface
-└── DIP/           # Exemplo do Princípio da Inversão de Dependência (a ser adicionado)
+└── DIP/           # Exemplo do Princípio da Inversão de Dependência
 ```
 
 ## Design Patterns
